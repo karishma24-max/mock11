@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 require("dotenv").config();
 
 const connect = async()=>{
-    return await mongoose.connect(`mongodb+srv://hi:hikiya@cluster0.t721j7n.mongodb.net/test?retryWrites=true&w=majority`)
+    return  mongoose.connect(`mongodb+srv://kar:cha@cluster0.cialw1s.mongodb.net/user?retryWrites=true&w=majority`)
 }
 
 module.exports = connect;
